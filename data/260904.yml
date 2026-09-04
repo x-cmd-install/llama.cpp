@@ -1,0 +1,80 @@
+about:
+  description: LLM inference in C/C++
+  license: MIT
+  homepage: https://llama.app
+  head: 9a4843c
+  archived: false
+  latestVersion: b10795
+  collectedAt: 2026-09-04T04:45:13Z
+timeline:
+  created: 2023-03-10
+  lastCommit: 2026-09-04
+  lastRelease: 2026-09-04
+popularity:
+  star: 126976
+  watcher: 832
+  fork: 22739
+  release: 7086
+  contributor: 1957
+  pullRequest: 4599
+  issue: 9871
+language:
+  C++: 20949482
+  C: 5919465
+  Python: 2698224
+  Cuda: 2008799
+  TypeScript: 1557959
+  Svelte: 821168
+  HTML: 775814
+  Metal: 563706
+  Jinja: 438258
+  GLSL: 352396
+  CMake: 279881
+  Shell: 276808
+  WGSL: 224537
+  Go Template: 214286
+  Objective-C: 118034
+  Dockerfile: 49163
+  JavaScript: 27179
+  Nix: 24441
+  CSS: 23371
+  Linker Script: 1729
+  MDX: 1633
+  Makefile: 1554
+  Batchfile: 802
+  SCSS: 415
+  Assembly: 396
+totalLine: 37329500
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 100
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last90d:
+    since: 2026-06-06
+    release: 100
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last180d:
+    since: 2026-03-08
+    release: 100
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last360d:
+    since: 2025-09-09
+    release: 100
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
