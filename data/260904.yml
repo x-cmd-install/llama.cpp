@@ -6,19 +6,19 @@ about:
   homepage: https://llama.app
   head: 427291b
   archived: false
-  latestVersion: b10814
-  collectedAt: 2026-09-04T19:44:49Z
+  latestVersion: v0.4.0
+  collectedAt: 2026-09-04T20:51:14Z
 timeline:
   created: 2023-03-10
   lastCommit: 2026-09-04
   lastRelease: 2026-09-04
 popularity:
-  star: 127050
+  star: 127054
   watcher: 833
-  fork: 22762
-  release: 7092
+  fork: 22765
+  release: 7094
   contributor: 1957
-  pullRequest: 14672
+  pullRequest: 14674
   issue: 9884
 language:
   C++: 21054383
@@ -97,13 +97,196 @@ recent:
     openIssue: 0
     commit: 0
 total:
-  release: 7092
+  release: 7094
   mergedPR: 10059
-  openPR: 1506
+  openPR: 1507
   closedIssue: 8972
   openIssue: 912
   commit: 10816
 ---
+path: /home/runner/.x-repo/github.com/ggerganov/llama.cpp
+collectedAt: 2026-09-04T20:51:32Z
+loc:
+  Cpp:
+    code: 366456
+    comments: 27615
+    blanks: 65705
+    files: 646
+  CHeader:
+    code: 133020
+    comments: 25494
+    blanks: 26136
+    files: 290
+  C:
+    code: 59152
+    comments: 4160
+    blanks: 12385
+    files: 95
+  Python:
+    code: 57573
+    comments: 4064
+    blanks: 11172
+    files: 219
+  TypeScript:
+    code: 35528
+    comments: 9474
+    blanks: 8304
+    files: 400
+  CppHeader:
+    code: 33152
+    comments: 6028
+    blanks: 6047
+    files: 80
+  Html:
+    code: 25476
+    comments: 0
+    blanks: 9661
+    files: 2
+  JavaScript:
+    code: 25476
+    comments: 9684
+    blanks: 3168
+    files: 15
+  Json:
+    code: 21316
+    comments: 0
+    blanks: 14
+    files: 12
+  Cuda:
+    code: 20597
+    comments: 1252
+    blanks: 3758
+    files: 189
+  Glsl:
+    code: 17594
+    comments: 769
+    blanks: 3606
+    files: 179
+  Svelte:
+    code: 11328
+    comments: 82
+    blanks: 1489
+    files: 321
+  Metal:
+    code: 9035
+    comments: 416
+    blanks: 2301
+    files: 20
+  Sh:
+    code: 6304
+    comments: 889
+    blanks: 1173
+    files: 70
+  CMake:
+    code: 6119
+    comments: 548
+    blanks: 1121
+    files: 104
+  WGSL:
+    code: 5704
+    comments: 216
+    blanks: 1095
+    files: 43
+  ObjectiveC:
+    code: 2395
+    comments: 200
+    blanks: 637
+    files: 2
+  Svg:
+    code: 1440
+    comments: 4
+    blanks: 7
+    files: 6
+  Kotlin:
+    code: 1287
+    comments: 325
+    blanks: 203
+    files: 15
+  Swift:
+    code: 1017
+    comments: 40
+    blanks: 219
+    files: 9
+  Css:
+    code: 809
+    comments: 45
+    blanks: 129
+    files: 2
+  VimScript:
+    code: 649
+    comments: 72
+    blanks: 62
+    files: 1
+  Batch:
+    code: 407
+    comments: 29
+    blanks: 67
+    files: 6
+  Xml:
+    code: 390
+    comments: 26
+    blanks: 20
+    files: 18
+  Autoconf:
+    code: 278
+    comments: 26
+    blanks: 59
+    files: 11
+  Makefile:
+    code: 206
+    comments: 18
+    blanks: 68
+    files: 4
+  Toml:
+    code: 154
+    comments: 9
+    blanks: 34
+    files: 4
+  Yaml:
+    code: 132
+    comments: 12
+    blanks: 31
+    files: 2
+  Nix:
+    code: 72
+    comments: 93
+    blanks: 15
+    files: 1
+  Prolog:
+    code: 48
+    comments: 0
+    blanks: 10
+    files: 3
+  AssemblyGAS:
+    code: 15
+    comments: 0
+    blanks: 0
+    files: 1
+  Ini:
+    code: 11
+    comments: 0
+    blanks: 0
+    files: 2
+  Sass:
+    code: 10
+    comments: 4
+    blanks: 2
+    files: 1
+  Markdown:
+    code: 0
+    comments: 12400
+    blanks: 4562
+    files: 120
+  Text:
+    code: 0
+    comments: 745
+    blanks: 43
+    files: 26
+total:
+  code: 857786
+  comments: 105689
+  blanks: 166131
+  files: 2919
 ---
 date: "2026-08-24"
 repo:
