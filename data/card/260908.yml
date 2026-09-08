@@ -2,24 +2,24 @@ about:
   description: "LLM inference in C/C++"
   license: MIT
   homepage: https://llama.app
-  head: 050dde5
+  head: 9dcf84e
   archived: false
-  latestVersion: "b10852"
-  collectedAt: 2026-09-08T02:34:01Z
+  latestVersion: "b10853"
+  collectedAt: 2026-09-08T05:29:03Z
 timeline:
   created: 2023-03-10
   lastCommit: 2026-09-08
   lastRelease: 2026-09-08
 popularity:
-  star: 127423
-  watcher: 834
-  fork: 22887
-  release: 7117
-  contributor: 1965
-  pullRequest: 14783
-  issue: 9934
+  star: 127440
+  watcher: 835
+  fork: 22886
+  release: 7118
+  contributor: 1966
+  pullRequest: 14787
+  issue: 9935
 language:
-  C++: 21139064
+  C++: 21141342
   C: 5977777
   Python: 2725832
   Cuda: 2013208
@@ -29,7 +29,7 @@ language:
   Metal: 563706
   Jinja: 442896
   GLSL: 355445
-  CMake: 283467
+  CMake: 283767
   Shell: 278822
   WGSL: 224537
   Go Template: 214286
@@ -44,7 +44,7 @@ language:
   Batchfile: 802
   SCSS: 415
   Assembly: 396
-totalBytes: 37662170
+totalBytes: 37664748
 recent:
   last30d:
     since: 2026-08-09
@@ -95,20 +95,20 @@ recent:
     openIssue: 0
     commit: 0
 total:
-  release: 7117
-  mergedPR: 10095
-  openPR: 1553
-  closedIssue: 9030
+  release: 7118
+  mergedPR: 10096
+  openPR: 1556
+  closedIssue: 9031
   openIssue: 904
-  commit: 10852
+  commit: 10853
 ---
 path: /home/runner/.x-repo/github.com/ggerganov/llama.cpp
-collectedAt: 2026-09-08T02:34:39Z
+collectedAt: 2026-09-08T05:29:40Z
 loc:
   Cpp:
-    code: 367866
-    comments: 27635
-    blanks: 65864
+    code: 367924
+    comments: 27638
+    blanks: 65874
     files: 647
   CHeader:
     code: 133127
@@ -176,7 +176,7 @@ loc:
     blanks: 1176
     files: 70
   CMake:
-    code: 6221
+    code: 6230
     comments: 561
     blanks: 1130
     files: 104
@@ -281,9 +281,9 @@ loc:
     blanks: 43
     files: 26
 total:
-  code: 860836
-  comments: 105931
-  blanks: 166641
+  code: 860903
+  comments: 105934
+  blanks: 166651
   files: 2934
 ---
 date: "2026-09-07"
