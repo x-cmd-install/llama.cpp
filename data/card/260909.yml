@@ -2,12 +2,12 @@ about:
   description: "LLM inference in C/C++"
   license: MIT
   homepage: https://llama.app
-  head: 30b6a75
+  head: 434ddbb
   archived: false
-  latestVersion: "b10869"
+  latestVersion: "b10883"
   latestRelease: "v0.4.0"
-  latestPrerelease: "b10869"
-  collectedAt: 2026-09-09T05:36:29Z
+  latestPrerelease: "b10883"
+  collectedAt: 2026-09-09T19:58:15Z
 timeline:
   created: 2023-03-10
   lastCommit: 2026-09-09
@@ -15,25 +15,25 @@ timeline:
   lastRelease: 2026-09-04
   lastPrerelease: 2026-09-09
 popularity:
-  star: 127569
+  star: 127641
   watcher: 834
-  fork: 22928
-  release: 7129
-  contributor: 1971
-  pullRequest: 14812
-  issue: 9942
+  fork: 22951
+  release: 7140
+  contributor: 1973
+  pullRequest: 14837
+  issue: 9955
 language:
-  C++: 21168041
-  C: 5979105
+  C++: 21134675
+  C: 5983039
   Python: 2725832
-  Cuda: 2013114
+  Cuda: 2013453
   TypeScript: 1595367
   Svelte: 823020
   HTML: 775814
   Metal: 564789
   Jinja: 442896
-  GLSL: 355445
-  CMake: 284713
+  GLSL: 354354
+  CMake: 286549
   Shell: 278822
   WGSL: 224537
   Go Template: 214286
@@ -48,7 +48,7 @@ language:
   Batchfile: 802
   SCSS: 415
   Assembly: 396
-totalBytes: 37694710
+totalBytes: 37666362
 recent:
   last30d:
     since: 2026-08-10
@@ -99,30 +99,30 @@ recent:
     openIssue: 0
     commit: 0
 total:
-  release: 7129
-  mergedPR: 10112
-  openPR: 1550
-  closedIssue: 9047
-  openIssue: 895
-  commit: 10869
+  release: 7140
+  mergedPR: 10127
+  openPR: 1548
+  closedIssue: 9053
+  openIssue: 902
+  commit: 10884
 ---
 path: /home/runner/.x-repo/github.com/ggerganov/llama.cpp
-collectedAt: 2026-09-09T05:37:11Z
+collectedAt: 2026-09-09T19:59:17Z
 loc:
   Cpp:
-    code: 368287
-    comments: 27663
-    blanks: 65911
+    code: 368127
+    comments: 27662
+    blanks: 65906
     files: 662
   CHeader:
-    code: 133190
-    comments: 25549
-    blanks: 26184
-    files: 291
+    code: 133243
+    comments: 25533
+    blanks: 26192
+    files: 292
   C:
-    code: 59236
-    comments: 4161
-    blanks: 12398
+    code: 59314
+    comments: 4145
+    blanks: 12379
     files: 95
   Python:
     code: 57797
@@ -155,15 +155,15 @@ loc:
     blanks: 14
     files: 12
   Cuda:
-    code: 20633
-    comments: 1257
-    blanks: 3762
+    code: 20638
+    comments: 1261
+    blanks: 3764
     files: 189
   Glsl:
-    code: 17990
-    comments: 795
-    blanks: 3699
-    files: 184
+    code: 18281
+    comments: 803
+    blanks: 3760
+    files: 187
   Svelte:
     code: 11358
     comments: 84
@@ -180,9 +180,9 @@ loc:
     blanks: 1176
     files: 70
   CMake:
-    code: 6250
-    comments: 562
-    blanks: 1132
+    code: 6287
+    comments: 563
+    blanks: 1140
     files: 105
   WGSL:
     code: 5704
@@ -276,7 +276,7 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 12406
+    comments: 12398
     blanks: 4562
     files: 120
   Text:
@@ -285,10 +285,10 @@ loc:
     blanks: 43
     files: 26
 total:
-  code: 861451
-  comments: 106017
-  blanks: 166739
-  files: 2951
+  code: 861755
+  comments: 105989
+  blanks: 166794
+  files: 2955
 ---
 date: "2026-09-07"
 repo:
