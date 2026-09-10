@@ -42,17 +42,17 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `b10900` (2026-09-04)
+- **Latest**: `b10901` (2026-09-04)
 - **Last commit**: 2026-09-10
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 127,741 · **Forks**: 22,990 · **Open issues**: 9,967 · **Contributors**: 1,977
+- **Stars**: 127,747 · **Forks**: 22,993 · **Open issues**: 9,970 · **Contributors**: 1,977
 
 ## Totals (cumulative)
 
-- **Releases**: 7153 · **Merged PRs**: 10145 · **Open PRs**: 1561 · **Closed issues**: 9059 · **Open issues**: 908 · **Commits**: 10902
+- **Releases**: 7154 · **Merged PRs**: 10145 · **Open PRs**: 1562 · **Closed issues**: 9059 · **Open issues**: 911 · **Commits**: 10902
 
 ## Recent activity
 
@@ -96,4 +96,4 @@ Install metadata for llama.cpp lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T20:42:56Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T23:08:42Z._
