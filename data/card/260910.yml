@@ -2,30 +2,30 @@ about:
   description: "LLM inference in C/C++"
   license: MIT
   homepage: https://llama.app
-  head: 434ddbb
+  head: df03399
   archived: false
-  latestVersion: "b10883"
+  latestVersion: "b10900"
   latestRelease: "v0.4.0"
-  latestPrerelease: "b10883"
-  collectedAt: 2026-09-10T05:28:22Z
+  latestPrerelease: "b10900"
+  collectedAt: 2026-09-10T20:41:58Z
 timeline:
   created: 2023-03-10
-  lastCommit: 2026-09-09
-  lastVersion: 2026-09-09
+  lastCommit: 2026-09-10
+  lastVersion: 2026-09-10
   lastRelease: 2026-09-04
-  lastPrerelease: 2026-09-09
+  lastPrerelease: 2026-09-10
 popularity:
-  star: 127673
-  watcher: 835
-  fork: 22960
-  release: 7140
-  contributor: 1973
-  pullRequest: 14846
-  issue: 9961
+  star: 127741
+  watcher: 834
+  fork: 22990
+  release: 7153
+  contributor: 1977
+  pullRequest: 14874
+  issue: 9967
 language:
-  C++: 21134675
-  C: 5983039
-  Python: 2725832
+  C++: 21155576
+  C: 5992000
+  Python: 2725774
   Cuda: 2013453
   TypeScript: 1595367
   Svelte: 823020
@@ -33,8 +33,8 @@ language:
   Metal: 564789
   Jinja: 442896
   GLSL: 354354
-  CMake: 286549
-  Shell: 278822
+  CMake: 286642
+  Shell: 278930
   WGSL: 224537
   Go Template: 214286
   Objective-C: 118170
@@ -48,7 +48,7 @@ language:
   Batchfile: 802
   SCSS: 415
   Assembly: 396
-totalBytes: 37666362
+totalBytes: 37696367
 recent:
   last30d:
     since: 2026-08-11
@@ -99,35 +99,35 @@ recent:
     openIssue: 0
     commit: 0
 total:
-  release: 7140
-  mergedPR: 10127
-  openPR: 1554
-  closedIssue: 9054
-  openIssue: 907
-  commit: 10884
+  release: 7153
+  mergedPR: 10145
+  openPR: 1561
+  closedIssue: 9059
+  openIssue: 908
+  commit: 10902
 ---
 path: /home/runner/.x-repo/github.com/ggerganov/llama.cpp
-collectedAt: 2026-09-10T05:28:58Z
+collectedAt: 2026-09-10T20:42:46Z
 loc:
   Cpp:
-    code: 368127
-    comments: 27662
-    blanks: 65906
-    files: 662
+    code: 368526
+    comments: 27685
+    blanks: 65998
+    files: 663
   CHeader:
-    code: 133243
+    code: 133241
     comments: 25533
     blanks: 26192
     files: 292
   C:
-    code: 59314
-    comments: 4145
-    blanks: 12379
+    code: 59359
+    comments: 4152
+    blanks: 12395
     files: 95
   Python:
-    code: 57797
+    code: 57795
     comments: 4065
-    blanks: 11210
+    blanks: 11212
     files: 220
   TypeScript:
     code: 36146
@@ -180,7 +180,7 @@ loc:
     blanks: 1176
     files: 70
   CMake:
-    code: 6287
+    code: 6290
     comments: 563
     blanks: 1140
     files: 105
@@ -276,7 +276,7 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 12398
+    comments: 12399
     blanks: 4562
     files: 120
   Text:
@@ -285,10 +285,10 @@ loc:
     blanks: 43
     files: 26
 total:
-  code: 861755
-  comments: 105989
-  blanks: 166794
-  files: 2955
+  code: 862198
+  comments: 106020
+  blanks: 166904
+  files: 2956
 ---
 date: "2026-09-07"
 repo:
