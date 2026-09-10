@@ -4,10 +4,10 @@ about:
   homepage: https://llama.app
   head: df03399
   archived: false
-  latestVersion: "b10900"
+  latestVersion: "b10901"
   latestRelease: "v0.4.0"
-  latestPrerelease: "b10900"
-  collectedAt: 2026-09-10T20:41:58Z
+  latestPrerelease: "b10901"
+  collectedAt: 2026-09-10T23:07:55Z
 timeline:
   created: 2023-03-10
   lastCommit: 2026-09-10
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 2026-09-04
   lastPrerelease: 2026-09-10
 popularity:
-  star: 127741
+  star: 127747
   watcher: 834
-  fork: 22990
-  release: 7153
+  fork: 22993
+  release: 7154
   contributor: 1977
-  pullRequest: 14874
-  issue: 9967
+  pullRequest: 14875
+  issue: 9970
 language:
   C++: 21155576
   C: 5992000
@@ -99,15 +99,15 @@ recent:
     openIssue: 0
     commit: 0
 total:
-  release: 7153
+  release: 7154
   mergedPR: 10145
-  openPR: 1561
+  openPR: 1562
   closedIssue: 9059
-  openIssue: 908
+  openIssue: 911
   commit: 10902
 ---
 path: /home/runner/.x-repo/github.com/ggerganov/llama.cpp
-collectedAt: 2026-09-10T20:42:46Z
+collectedAt: 2026-09-10T23:08:35Z
 loc:
   Cpp:
     code: 368526
