@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 127,747 · **Forks**: 22,993 · **Open issues**: 9,970 · **Contributors**: 1,977
+- **Stars**: 127,775 · **Forks**: 23,003 · **Open issues**: 9,972 · **Contributors**: 1,977
 
 ## Totals (cumulative)
 
-- **Releases**: 7154 · **Merged PRs**: 10145 · **Open PRs**: 1562 · **Closed issues**: 9059 · **Open issues**: 911 · **Commits**: 10902
+- **Releases**: 7154 · **Merged PRs**: 10145 · **Open PRs**: 1565 · **Closed issues**: 9073 · **Open issues**: 899 · **Commits**: 10902
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 100 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-12 | 100 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-12 | 100 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-14 | 100 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-15 | 100 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-20 | 100 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-12 | 100 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-13 | 100 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-13 | 100 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-15 | 100 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-16 | 100 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-21 | 100 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -96,4 +96,4 @@ Install metadata for llama.cpp lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T23:08:42Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T05:26:34Z._
