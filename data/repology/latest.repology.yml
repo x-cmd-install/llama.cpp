@@ -1,3 +1,17 @@
+- repo: openkylin_2_0
+  subrepo: nile-proposed/main
+  srcname: llamacpp
+  binnames:
+    - llamacpp
+    - llamacpp-dev
+  visiblename: llamacpp
+  version: 1.0.0
+  origversion: 1.0.0-ok0.1
+  status: newest
+  maintainers:
+    - kylin@unknown
+  categories:
+    - libs
 - repo: aixtoolbox
   srcname: llama-cpp
   binnames:
@@ -130,6 +144,18 @@
   summary: LLM inference in C/C++ (with Vulkan GPU acceleration)
   maintainers:
     - hugo@whynothugo.nl
+  licenses:
+    - MIT
+- repo: aur
+  srcname: llama.cpp-git
+  binname: llama.cpp-git
+  visiblename: llama.cpp-git
+  version: b9554.r2.19bba67c1f
+  origversion: b9554.r2.19bba67c1f-1
+  status: rolling
+  summary: Port of Facebook's LLaMA model in C/C++
+  maintainers:
+    - lapsus@aur
   licenses:
     - MIT
 - repo: alpine_edge
@@ -718,29 +744,6 @@
     - fallback-mnt-aur@repology
   licenses:
     - MIT
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: llama-cpp
-  binname: llama-cpp
-  visiblename: llama-cpp
-  version: 0.4.0
-  origversion: 0.4.0-1
-  status: outdated
-  summary: LLM inference in C/C++
-  licenses:
-    - MIT
-- repo: aur
-  srcname: llama.cpp-git
-  binname: llama.cpp-git
-  visiblename: llama.cpp-git
-  version: b9554.r2.19bba67c1f
-  origversion: b9554.r2.19bba67c1f-1
-  status: rolling
-  summary: Port of Facebook's LLaMA model in C/C++
-  maintainers:
-    - lapsus@aur
-  licenses:
-    - MIT
 - repo: aur
   srcname: llama.cpp-hip
   binname: llama.cpp-hip
@@ -1077,17 +1080,6 @@
     - yuri@freebsd.org
   categories:
     - misc
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: llama-cpp
-  binname: llama-cpp
-  visiblename: llama-cpp
-  version: 0.4.0
-  origversion: 0.4.0-2
-  status: outdated
-  summary: LLM inference in C/C++
-  licenses:
-    - MIT
 - repo: gentoo_ovl_guru
   srcname: sci-misc/llama-cpp
   visiblename: sci-misc/llama-cpp
@@ -1205,17 +1197,6 @@
     - MIT
   categories:
     - sci-misc
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: llama-cpp
-  binname: llama-cpp
-  visiblename: llama-cpp
-  version: 0.4.0
-  origversion: 0.4.0-2
-  status: outdated
-  summary: LLM inference in C/C++
-  licenses:
-    - MIT
 - repo: gentoo_ovl_guru
   srcname: sci-misc/llama-cpp
   visiblename: sci-misc/llama-cpp
@@ -1505,6 +1486,39 @@
     - MIT
   categories:
     - llm
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: llama-cpp
+  binname: llama-cpp
+  visiblename: llama-cpp
+  version: 0.4.0
+  origversion: 0.4.0-1
+  status: outdated
+  summary: LLM inference in C/C++
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: llama-cpp
+  binname: llama-cpp
+  visiblename: llama-cpp
+  version: 0.4.0
+  origversion: 0.4.0-2
+  status: outdated
+  summary: LLM inference in C/C++
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: llama-cpp
+  binname: llama-cpp
+  visiblename: llama-cpp
+  version: 0.4.0
+  origversion: 0.4.0-2
+  status: outdated
+  summary: LLM inference in C/C++
+  licenses:
+    - MIT
 - repo: msys2_clang64
   srcname: mingw-w64-llama.cpp
   binname: mingw-w64-clang-x86_64-llama.cpp
@@ -1834,20 +1848,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: openkylin_2_0
-  subrepo: nile-proposed/main
-  srcname: llamacpp
-  binnames:
-    - llamacpp
-    - llamacpp-dev
-  visiblename: llamacpp
-  version: 1.0.0
-  origversion: 1.0.0-ok0.1
-  status: newest
-  maintainers:
-    - kylin@unknown
-  categories:
-    - libs
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: llama-cpp
@@ -1896,7 +1896,7 @@
     - llama-cpp-debuginfo
   visiblename: llama-cpp
   version: 0.4.0
-  origversion: 0.4.0-1
+  origversion: 0.4.0-2
   status: outdated
   summary: LLM inference in C/C++ (llama.cpp)
   maintainers:
@@ -1993,7 +1993,7 @@
   subrepo: versions
   binname: llama.cpp-sycl
   visiblename: llama.cpp-sycl
-  version: b10909
+  version: b10917
   origversion: null
   status: outdated
   licenses:
@@ -2002,7 +2002,7 @@
   subrepo: versions
   binname: llama.cpp-cu124
   visiblename: llama.cpp-cu124
-  version: b10909
+  version: b10917
   origversion: null
   status: outdated
   licenses:
@@ -2011,7 +2011,7 @@
   subrepo: versions
   binname: llama.cpp-cpu
   visiblename: llama.cpp-cpu
-  version: b10909
+  version: b10917
   origversion: null
   status: outdated
   licenses:
@@ -2020,7 +2020,7 @@
   subrepo: versions
   binname: llama.cpp-opencl
   visiblename: llama.cpp-opencl
-  version: b10909
+  version: b10917
   origversion: null
   status: outdated
   licenses:
@@ -2029,7 +2029,7 @@
   subrepo: versions
   binname: llama.cpp-vulkan
   visiblename: llama.cpp-vulkan
-  version: b10909
+  version: b10917
   origversion: null
   status: outdated
   licenses:
