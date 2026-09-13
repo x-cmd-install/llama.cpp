@@ -1,17 +1,3 @@
-- repo: openkylin_2_0
-  subrepo: nile-proposed/main
-  srcname: llamacpp
-  binnames:
-    - llamacpp
-    - llamacpp-dev
-  visiblename: llamacpp
-  version: 1.0.0
-  origversion: 1.0.0-ok0.1
-  status: newest
-  maintainers:
-    - kylin@unknown
-  categories:
-    - libs
 - repo: aixtoolbox
   srcname: llama-cpp
   binnames:
@@ -144,18 +130,6 @@
   summary: LLM inference in C/C++ (with Vulkan GPU acceleration)
   maintainers:
     - hugo@whynothugo.nl
-  licenses:
-    - MIT
-- repo: aur
-  srcname: llama.cpp-git
-  binname: llama.cpp-git
-  visiblename: llama.cpp-git
-  version: b9554.r2.19bba67c1f
-  origversion: b9554.r2.19bba67c1f-1
-  status: rolling
-  summary: Port of Facebook's LLaMA model in C/C++
-  maintainers:
-    - lapsus@aur
   licenses:
     - MIT
 - repo: alpine_edge
@@ -574,18 +548,6 @@
     - hugo@whynothugo.nl
   licenses:
     - MIT
-- repo: aur
-  srcname: llama.cpp-cuda-git
-  binname: llama.cpp-cuda-git
-  visiblename: llama.cpp-cuda-git
-  version: b10830.r0.465e49b9ce
-  origversion: b10830.r0.465e49b9ce-1
-  status: rolling
-  summary: Port of Facebook's LLaMA model in C/C++ (with NVIDIA CUDA optimizations)
-  maintainers:
-    - bink@aur
-  licenses:
-    - MIT
 - repo: alpine_edge
   subrepo: community
   srcname: llama.cpp
@@ -625,6 +587,31 @@
     - hugo@whynothugo.nl
   licenses:
     - MIT
+- repo: aur
+  srcname: llama.cpp-sycl
+  binname: llama.cpp-sycl
+  visiblename: llama.cpp-sycl
+  version: b10919
+  origversion: b10919-1
+  status: outdated
+  summary: llama.cpp with Intel Arc GPU acceleration via SYCL/oneAPI. Please read the README on Codeberg before use.
+  maintainers:
+    - cantosun99@aur
+  licenses:
+    - MIT
+- repo: liguros_develop
+  srcname: sci-misc/llama-cpp
+  visiblename: sci-misc/llama-cpp
+  version: 0_pre7276
+  origversion: null
+  status: legacy
+  summary: Port of Facebook's LLaMA model in C/C++
+  maintainers:
+    - negril.nx+gentoo@gmail.com
+  licenses:
+    - MIT
+  categories:
+    - sci-misc
 - repo: alt_p11
   srcname: llama.cpp
   binnames:
@@ -745,6 +732,30 @@
   licenses:
     - MIT
 - repo: aur
+  srcname: llama.cpp-cuda-git
+  binname: llama.cpp-cuda-git
+  visiblename: llama.cpp-cuda-git
+  version: b10830.r0.465e49b9ce
+  origversion: b10830.r0.465e49b9ce-1
+  status: rolling
+  summary: Port of Facebook's LLaMA model in C/C++ (with NVIDIA CUDA optimizations)
+  maintainers:
+    - bink@aur
+  licenses:
+    - MIT
+- repo: aur
+  srcname: llama.cpp-git
+  binname: llama.cpp-git
+  visiblename: llama.cpp-git
+  version: b9554.r2.19bba67c1f
+  origversion: b9554.r2.19bba67c1f-1
+  status: rolling
+  summary: Port of Facebook's LLaMA model in C/C++
+  maintainers:
+    - lapsus@aur
+  licenses:
+    - MIT
+- repo: aur
   srcname: llama.cpp-hip
   binname: llama.cpp-hip
   visiblename: llama.cpp-hip
@@ -766,18 +777,6 @@
   summary: Port of Facebook's LLaMA model in C/C++ (with AMD ROCm optimizations, git version)
   maintainers:
     - orion-zhen@aur
-  licenses:
-    - MIT
-- repo: aur
-  srcname: llama.cpp-sycl
-  binname: llama.cpp-sycl
-  visiblename: llama.cpp-sycl
-  version: b10903
-  origversion: b10903-1
-  status: outdated
-  summary: llama.cpp with Intel Arc GPU acceleration via SYCL/oneAPI. Please read the README on Codeberg before use.
-  maintainers:
-    - cantosun99@aur
   licenses:
     - MIT
 - repo: aur
@@ -1218,6 +1217,19 @@
   origversion: null
   status: outdated
   summary: Port of Facebook's LLaMA model in C/C++
+- repo: liguros_develop
+  srcname: sci-misc/llama-cpp
+  visiblename: sci-misc/llama-cpp
+  version: 0_pre6980
+  origversion: null
+  status: legacy
+  summary: Port of Facebook's LLaMA model in C/C++
+  maintainers:
+    - negril.nx+gentoo@gmail.com
+  licenses:
+    - MIT
+  categories:
+    - sci-misc
 - repo: haikuports_master
   srcname: dev-cpp/llama-cpp
   visiblename: dev-cpp/llama-cpp
@@ -1370,35 +1382,9 @@
 - repo: liguros_develop
   srcname: sci-misc/llama-cpp
   visiblename: sci-misc/llama-cpp
-  version: 0_pre6980
-  origversion: null
-  status: legacy
-  summary: Port of Facebook's LLaMA model in C/C++
-  maintainers:
-    - negril.nx+gentoo@gmail.com
-  licenses:
-    - MIT
-  categories:
-    - sci-misc
-- repo: liguros_develop
-  srcname: sci-misc/llama-cpp
-  visiblename: sci-misc/llama-cpp
   version: 0_pre8838
   origversion: null
   status: outdated
-  summary: Port of Facebook's LLaMA model in C/C++
-  maintainers:
-    - negril.nx+gentoo@gmail.com
-  licenses:
-    - MIT
-  categories:
-    - sci-misc
-- repo: liguros_develop
-  srcname: sci-misc/llama-cpp
-  visiblename: sci-misc/llama-cpp
-  version: 0_pre7276
-  origversion: null
-  status: legacy
   summary: Port of Facebook's LLaMA model in C/C++
   maintainers:
     - negril.nx+gentoo@gmail.com
@@ -1671,20 +1657,6 @@
     - brandon@emergence.ltd
   licenses:
     - MIT
-- repo: openkylin_2_0_bedrock
-  subrepo: nile.bedrock/main
-  srcname: llamacpp
-  binnames:
-    - llamacpp
-    - llamacpp-dev
-  visiblename: llamacpp
-  version: 1.0.0
-  origversion: 1.0.0-ok0.1
-  status: newest
-  maintainers:
-    - kylin@unknown
-  categories:
-    - libs
 - repo: nix_stable_26_05
   srcname: llama-cpp-vulkan
   visiblename: llama-cpp
@@ -1848,6 +1820,34 @@
     - MIT
   categories:
     - Unspecified
+- repo: openkylin_2_0
+  subrepo: nile-proposed/main
+  srcname: llamacpp
+  binnames:
+    - llamacpp
+    - llamacpp-dev
+  visiblename: llamacpp
+  version: 1.0.0
+  origversion: 1.0.0-ok0.1
+  status: newest
+  maintainers:
+    - kylin@unknown
+  categories:
+    - libs
+- repo: openkylin_2_0_bedrock
+  subrepo: nile.bedrock/main
+  srcname: llamacpp
+  binnames:
+    - llamacpp
+    - llamacpp-dev
+  visiblename: llamacpp
+  version: 1.0.0
+  origversion: 1.0.0-ok0.1
+  status: newest
+  maintainers:
+    - kylin@unknown
+  categories:
+    - libs
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: llama-cpp
@@ -1993,7 +1993,7 @@
   subrepo: versions
   binname: llama.cpp-sycl
   visiblename: llama.cpp-sycl
-  version: b10917
+  version: b10936
   origversion: null
   status: outdated
   licenses:
@@ -2002,7 +2002,7 @@
   subrepo: versions
   binname: llama.cpp-cu124
   visiblename: llama.cpp-cu124
-  version: b10917
+  version: b10936
   origversion: null
   status: outdated
   licenses:
@@ -2011,7 +2011,7 @@
   subrepo: versions
   binname: llama.cpp-cpu
   visiblename: llama.cpp-cpu
-  version: b10917
+  version: b10936
   origversion: null
   status: outdated
   licenses:
@@ -2020,7 +2020,7 @@
   subrepo: versions
   binname: llama.cpp-opencl
   visiblename: llama.cpp-opencl
-  version: b10917
+  version: b10936
   origversion: null
   status: outdated
   licenses:
@@ -2029,7 +2029,7 @@
   subrepo: versions
   binname: llama.cpp-vulkan
   visiblename: llama.cpp-vulkan
-  version: b10917
+  version: b10936
   origversion: null
   status: outdated
   licenses:
