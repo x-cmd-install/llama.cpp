@@ -14,15 +14,15 @@ x install llama.cpp
 
 ## Code insight
 
-Total: **871,470** lines of code across **1707** files in the top 5 languages.
+Total: **875,816** lines of code across **1721** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 377,374 | 28,723 | 67,736 | 678 |
-| CHeader | 137,151 | 25,890 | 26,940 | 306 |
-| C | 64,589 | 4,112 | 13,429 | 96 |
-| Python | 59,224 | 4,175 | 11,509 | 222 |
-| TypeScript | 36,185 | 9,609 | 8,468 | 405 |
+| Cpp | 379,476 | 28,910 | 68,203 | 680 |
+| CHeader | 137,343 | 25,922 | 27,003 | 306 |
+| C | 64,615 | 4,113 | 13,434 | 96 |
+| Python | 59,554 | 4,198 | 11,566 | 222 |
+| TypeScript | 37,671 | 10,106 | 8,867 | 417 |
 
 ## OpenSSF Scorecard
 
@@ -42,28 +42,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `b11272` (2026-09-23)
-- **Last commit**: 2026-09-30
+- **Latest**: `b11312`
+- **Last commit**: 2026-10-01
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 129,919 · **Forks**: 23,913 · **Open issues**: 10,232 · **Contributors**: 2,033
+- **Stars**: 130,018 · **Forks**: 23,951 · **Open issues**: 10,265 · **Contributors**: 2,042
 
 ## Totals (cumulative)
 
-- **Releases**: 7420 · **Merged PRs**: 10518 · **Open PRs**: 1676 · **Closed issues**: 9353 · **Open issues**: 879 · **Commits**: 11278
+- **Releases**: 7448 · **Merged PRs**: 10563 · **Open PRs**: 1673 · **Closed issues**: 9399 · **Open issues**: 866 · **Commits**: 11323
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 100 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-01 | 100 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-02 | 100 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-03 | 100 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-05 | 100 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-10 | 100 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-01 | 100 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-02 | 100 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-03 | 100 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-04 | 100 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-06 | 100 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-11 | 100 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for llama.cpp lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T06:20:58Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T06:32:58Z._
