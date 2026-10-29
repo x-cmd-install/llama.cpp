@@ -1,162 +1,46 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: llama.cpp
+- repo: openkylin_2_0_bedrock
+  subrepo: nile.bedrock/main
+  srcname: llamacpp
   binnames:
-    - llama.cpp
-    - libllama0
-    - libllama-dev
-    - llama.cpp-tools
-    - llama.cpp-tools-extra
-    - llama.cpp-services
-    - llama.cpp-examples
-    - llama.cpp-tests
-    - python3-gguf
-  visiblename: llama.cpp
-  version: 0.7.0
-  origversion: 1:0.7.0+dfsg-2
-  status: outdated
+    - llamacpp
+    - llamacpp-dev
+  visiblename: llamacpp
+  version: 1.0.0
+  origversion: 1.0.0-ok0.1
+  status: newest
   maintainers:
-    - debian-ai@lists.debian.org
-    - ckk@debian.org
-    - mbaudier@argeo.org
+    - kylin@unknown
   categories:
-    - misc
-- repo: nix_stable_25_11
-  srcname: llama-cpp
-  visiblename: llama-cpp
-  version: b6981
-  origversion: "6981"
-  status: outdated
-  summary: Inference of Meta's LLaMA model (and others) in pure C/C++
-  maintainers:
-    - ihar.hrachyshka@gmail.com
-    - 7rat13@gmail.com
-    - philip.taron@gmail.com
-    - b980120@hotmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: llama-cpp-rocm
-  visiblename: llama-cpp
-  version: b6981
-  origversion: "6981"
-  status: outdated
-  summary: Inference of Meta's LLaMA model (and others) in pure C/C++
-  maintainers:
-    - ihar.hrachyshka@gmail.com
-    - 7rat13@gmail.com
-    - philip.taron@gmail.com
-    - b980120@hotmail.com
-  licenses:
-    - MIT
-- repo: npackd_stable64
+    - libs
+- repo: arch
+  subrepo: extra
   srcname: llama-cpp
   binname: llama-cpp
+  visiblename: llama-cpp
+  version: 0.6.0
+  origversion: 0.6.0-1
+  status: outdated
+  summary: LLM inference in C/C++
+  licenses:
+    - MIT
+- repo: homebrew
+  srcname: llama.cpp
   visiblename: llama.cpp
-  version: 0.4.1
+  version: HEAD
   origversion: null
-  status: outdated
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: stalix
-  srcname: bin/llama/cpp/vulkan
-  binname: bin/llama/cpp/vulkan
-  visiblename: bin/llama/cpp/vulkan
-  version: b7086
-  origversion: null
-  status: outdated
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: alpine_3_24
-  subrepo: community
-  srcname: llama.cpp
-  binname: llama.cpp-extras
-  visiblename: llama.cpp-extras
-  version: 0.0.9564
-  origversion: 0.0.9564-r0
-  status: outdated
-  summary: llama.cpp additional binaries
-  maintainers:
-    - hugo@whynothugo.nl
-  licenses:
-    - MIT
-- repo: stalix_dev
-  srcname: bin/llama/cpp/soft
-  binname: bin/llama/cpp/soft
-  visiblename: bin/llama/cpp/soft
-  version: b7086
-  origversion: null
-  status: outdated
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: stalix_dev
-  srcname: bin/llama/cpp/vulkan
-  binname: bin/llama/cpp/vulkan
-  visiblename: bin/llama/cpp/vulkan
-  version: b7086
-  origversion: null
-  status: outdated
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: alpine_edge
-  subrepo: community
-  srcname: llama.cpp
-  binname: llama-lookahead
-  visiblename: llama-lookahead
-  version: 0.6.0
-  origversion: 0.6.0-r0
-  status: outdated
-  summary: llama-lookahead tool from llama.cpp
-  maintainers:
-    - hugo@whynothugo.nl
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: llama.cpp
-  binname: llama-lookup
-  visiblename: llama-lookup
-  version: 0.6.0
-  origversion: 0.6.0-r0
-  status: outdated
-  summary: llama-lookup tool from llama.cpp
-  maintainers:
-    - hugo@whynothugo.nl
-  licenses:
-    - MIT
-- repo: aur
-  srcname: llama.cpp-git
-  binname: llama.cpp-git
-  visiblename: llama.cpp-git
-  version: b9554.r2.19bba67c1f
-  origversion: b9554.r2.19bba67c1f-1
   status: rolling
-  summary: Port of Facebook's LLaMA model in C/C++
-  maintainers:
-    - lapsus@aur
-  licenses:
-    - MIT
-- repo: aixtoolbox
+  summary: LLM inference in C/C++
+- repo: ibmi
   srcname: llama-cpp
   binnames:
     - llama-cpp
-    - llama-cpp-devel
-    - llama-cpp-examples
   visiblename: llama-cpp
-  version: b5401
-  origversion: b5401-1
-  status: legacy
-  summary: Port of Facebook's LLaMA model in C/C++
+  version: b5281
+  origversion: b5281-1
+  status: outdated
+  summary: Inference Engine
   licenses:
-    - MIT AND Apache-2.0 AND LicenseRef-Fedora-Public-Domain
+    - MIT
   categories:
     - Unspecified
 - repo: aixtoolbox
@@ -169,6 +53,60 @@
   version: b7031
   origversion: b7031-1
   status: outdated
+  summary: Port of Facebook's LLaMA model in C/C++
+  licenses:
+    - MIT AND Apache-2.0 AND LicenseRef-Fedora-Public-Domain
+  categories:
+    - Unspecified
+- repo: alpine_3_24
+  subrepo: community
+  srcname: llama.cpp
+  binname: llama.cpp-vulkan
+  visiblename: llama.cpp-vulkan
+  version: 0.0.9564
+  origversion: 0.0.9564-r0
+  status: outdated
+  summary: LLM inference in C/C++ (with Vulkan GPU acceleration)
+  maintainers:
+    - hugo@whynothugo.nl
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: llama.cpp
+  binname: llama
+  visiblename: llama
+  version: 0.6.0
+  origversion: 0.6.0-r0
+  status: outdated
+  summary: llama tool from llama.cpp
+  maintainers:
+    - hugo@whynothugo.nl
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: llama.cpp
+  binname: llama-batched
+  visiblename: llama-batched
+  version: 0.6.0
+  origversion: 0.6.0-r0
+  status: outdated
+  summary: llama-batched tool from llama.cpp
+  maintainers:
+    - hugo@whynothugo.nl
+  licenses:
+    - MIT
+- repo: aixtoolbox
+  srcname: llama-cpp
+  binnames:
+    - llama-cpp
+    - llama-cpp-devel
+    - llama-cpp-examples
+  visiblename: llama-cpp
+  version: b5401
+  origversion: b5401-1
+  status: legacy
   summary: Port of Facebook's LLaMA model in C/C++
   licenses:
     - MIT AND Apache-2.0 AND LicenseRef-Fedora-Public-Domain
@@ -242,6 +180,19 @@
 - repo: alpine_3_24
   subrepo: community
   srcname: llama.cpp
+  binname: llama.cpp-extras
+  visiblename: llama.cpp-extras
+  version: 0.0.9564
+  origversion: 0.0.9564-r0
+  status: outdated
+  summary: llama.cpp additional binaries
+  maintainers:
+    - hugo@whynothugo.nl
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: llama.cpp
   binname: llama.cpp-libs
   visiblename: llama.cpp-libs
   version: 0.0.9564
@@ -252,45 +203,18 @@
     - hugo@whynothugo.nl
   licenses:
     - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: llama.cpp
-  binname: llama.cpp-vulkan
-  visiblename: llama.cpp-vulkan
-  version: 0.0.9564
-  origversion: 0.0.9564-r0
+- repo: aosc
+  srcname: runtime-creativity/llama.cpp
+  binname: llama.cpp
+  visiblename: llama.cpp
+  version: b10453
+  origversion: "10453"
   status: outdated
-  summary: LLM inference in C/C++ (with Vulkan GPU acceleration)
+  summary: C++ implementation of LLM inference
   maintainers:
-    - hugo@whynothugo.nl
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: llama.cpp
-  binname: llama
-  visiblename: llama
-  version: 0.6.0
-  origversion: 0.6.0-r0
-  status: outdated
-  summary: llama tool from llama.cpp
-  maintainers:
-    - hugo@whynothugo.nl
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: llama.cpp
-  binname: llama-batched
-  visiblename: llama-batched
-  version: 0.6.0
-  origversion: 0.6.0-r0
-  status: outdated
-  summary: llama-batched tool from llama.cpp
-  maintainers:
-    - hugo@whynothugo.nl
-  licenses:
-    - MIT
+    - fallback-mnt-aosc@repology
+  categories:
+    - misc
 - repo: alpine_edge
   subrepo: community
   srcname: llama.cpp
@@ -495,6 +419,32 @@
   origversion: 0.6.0-r0
   status: outdated
   summary: llama-imatrix tool from llama.cpp
+  maintainers:
+    - hugo@whynothugo.nl
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: llama.cpp
+  binname: llama-lookahead
+  visiblename: llama-lookahead
+  version: 0.6.0
+  origversion: 0.6.0-r0
+  status: outdated
+  summary: llama-lookahead tool from llama.cpp
+  maintainers:
+    - hugo@whynothugo.nl
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: llama.cpp
+  binname: llama-lookup
+  visiblename: llama-lookup
+  version: 0.6.0
+  origversion: 0.6.0-r0
+  status: outdated
+  summary: llama-lookup tool from llama.cpp
   maintainers:
     - hugo@whynothugo.nl
   licenses:
@@ -820,29 +770,6 @@
     - MIT
   categories:
     - Sciences/Computer science
-- repo: aosc
-  srcname: runtime-creativity/llama.cpp
-  binname: llama.cpp
-  visiblename: llama.cpp
-  version: b10453
-  origversion: "10453"
-  status: outdated
-  summary: C++ implementation of LLM inference
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - misc
-- repo: arch
-  subrepo: extra
-  srcname: llama-cpp
-  binname: llama-cpp
-  visiblename: llama-cpp
-  version: 0.6.0
-  origversion: 0.6.0-1
-  status: outdated
-  summary: LLM inference in C/C++
-  licenses:
-    - MIT
 - repo: aur
   srcname: llama.cpp-clblas-git
   binname: llama.cpp-clblas-git
@@ -901,6 +828,18 @@
   summary: Port of Facebook's LLaMA model in C/C++ (with NVIDIA CUDA optimizations)
   maintainers:
     - bink@aur
+  licenses:
+    - MIT
+- repo: aur
+  srcname: llama.cpp-git
+  binname: llama.cpp-git
+  visiblename: llama.cpp-git
+  version: b9554.r2.19bba67c1f
+  origversion: b9554.r2.19bba67c1f-1
+  status: rolling
+  summary: Port of Facebook's LLaMA model in C/C++
+  maintainers:
+    - lapsus@aur
   licenses:
     - MIT
 - repo: aur
@@ -1017,16 +956,6 @@
     - mbaudier@argeo.org
   categories:
     - misc
-- repo: msys2_clang64
-  srcname: mingw-w64-llama.cpp
-  binname: mingw-w64-clang-x86_64-llama.cpp
-  visiblename: mingw-w64-clang-x86_64-llama.cpp
-  version: 0.7.0
-  origversion: 1~0.7.0-2
-  status: outdated
-  summary: LLM inference in C/C++ (mingw-w64)
-  licenses:
-    - spdx:MIT
 - repo: debian_unstable
   subrepo: sid/main
   srcname: llama.cpp
@@ -1069,6 +998,29 @@
   maintainers:
     - debian-ai@lists.debian.org
     - ckk@debian.org
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: llama.cpp
+  binnames:
+    - llama.cpp
+    - libllama0
+    - libllama-dev
+    - llama.cpp-tools
+    - llama.cpp-tools-extra
+    - llama.cpp-services
+    - llama.cpp-examples
+    - llama.cpp-tests
+    - python3-gguf
+  visiblename: llama.cpp
+  version: 0.7.0
+  origversion: 1:0.7.0+dfsg-2
+  status: outdated
+  maintainers:
+    - debian-ai@lists.debian.org
+    - ckk@debian.org
+    - mbaudier@argeo.org
+  categories:
+    - misc
 - repo: exherbo
   subrepo: tombriden
   srcname: machine-learning/llama-cpp
@@ -1099,6 +1051,21 @@
   categories:
     - Unspecified
 - repo: fedora_41
+  subrepo: updates
+  srcname: llama-cpp
+  binnames:
+    - llama-cpp
+    - llama-cpp-devel
+  visiblename: llama-cpp
+  version: b3561
+  origversion: b3561-2.fc41
+  status: outdated
+  summary: Port of Facebook's LLaMA model in C/C++
+  licenses:
+    - MIT AND Apache-2.0 AND LicenseRef-Fedora-Public-Domain
+  categories:
+    - Unspecified
+- repo: fedora_41
   subrepo: release
   srcname: llama-cpp
   binnames:
@@ -1113,15 +1080,15 @@
     - MIT AND Apache-2.0 AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
-- repo: fedora_41
-  subrepo: updates
+- repo: fedora_42
+  subrepo: release
   srcname: llama-cpp
   binnames:
     - llama-cpp
     - llama-cpp-devel
   visiblename: llama-cpp
-  version: b3561
-  origversion: b3561-2.fc41
+  version: b4094
+  origversion: b4094-10.fc42
   status: outdated
   summary: Port of Facebook's LLaMA model in C/C++
   licenses:
@@ -1137,21 +1104,6 @@
   visiblename: llama-cpp
   version: b4094
   origversion: b4094-11.fc42
-  status: outdated
-  summary: Port of Facebook's LLaMA model in C/C++
-  licenses:
-    - MIT AND Apache-2.0 AND LicenseRef-Fedora-Public-Domain
-  categories:
-    - Unspecified
-- repo: fedora_42
-  subrepo: release
-  srcname: llama-cpp
-  binnames:
-    - llama-cpp
-    - llama-cpp-devel
-  visiblename: llama-cpp
-  version: b4094
-  origversion: b4094-10.fc42
   status: outdated
   summary: Port of Facebook's LLaMA model in C/C++
   licenses:
@@ -1215,29 +1167,6 @@
     - yuri@freebsd.org
   categories:
     - misc
-- repo: kali_rolling
-  subrepo: main
-  srcname: llama.cpp
-  binnames:
-    - llama.cpp
-    - libllama0
-    - libllama-dev
-    - llama.cpp-tools
-    - llama.cpp-tools-extra
-    - llama.cpp-services
-    - llama.cpp-examples
-    - llama.cpp-tests
-    - python3-gguf
-  visiblename: llama.cpp
-  version: 0.5.0
-  origversion: 1:0.5.0+dfsg-2
-  status: outdated
-  maintainers:
-    - debian-ai@lists.debian.org
-    - ckk@debian.org
-    - mbaudier@argeo.org
-  categories:
-    - misc
 - repo: gentoo_ovl_guru
   srcname: sci-misc/llama-cpp
   visiblename: sci-misc/llama-cpp
@@ -1298,6 +1227,19 @@
     - MIT
   categories:
     - sci-misc
+- repo: liguros_stable
+  srcname: sci-misc/llama-cpp
+  visiblename: sci-misc/llama-cpp
+  version: 0_pre5097
+  origversion: null
+  status: legacy
+  summary: Port of Facebook's LLaMA model in C/C++
+  maintainers:
+    - zl29ah@gmail.com
+  licenses:
+    - MIT
+  categories:
+    - sci-misc
 - repo: gentoo_ovl_guru
   srcname: sci-misc/llama-cpp
   visiblename: sci-misc/llama-cpp
@@ -1317,7 +1259,7 @@
   srcname: llama-cpp
   binname: llama-cpp
   visiblename: llama-cpp
-  version: 0.5.0
+  version: 0.7.0
   origversion: null
   status: outdated
   summary: Port of Facebook's LLaMA model in C/C++
@@ -1332,30 +1274,33 @@
 - repo: homebrew
   srcname: llama.cpp
   visiblename: llama.cpp
-  version: 0.7.0
+  version: 0.8.0
   origversion: null
   status: outdated
   summary: LLM inference in C/C++
-- repo: homebrew
+- repo: kali_rolling
+  subrepo: main
   srcname: llama.cpp
-  visiblename: llama.cpp
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: LLM inference in C/C++
-- repo: ibmi
-  srcname: llama-cpp
   binnames:
-    - llama-cpp
-  visiblename: llama-cpp
-  version: b5281
-  origversion: b5281-1
+    - llama.cpp
+    - libllama0
+    - libllama-dev
+    - llama.cpp-tools
+    - llama.cpp-tools-extra
+    - llama.cpp-services
+    - llama.cpp-examples
+    - llama.cpp-tests
+    - python3-gguf
+  visiblename: llama.cpp
+  version: 0.5.0
+  origversion: 1:0.5.0+dfsg-2
   status: outdated
-  summary: Inference Engine
-  licenses:
-    - MIT
+  maintainers:
+    - debian-ai@lists.debian.org
+    - ckk@debian.org
+    - mbaudier@argeo.org
   categories:
-    - Unspecified
+    - misc
 - repo: liguros_stable
   srcname: sci-misc/llama-cpp
   visiblename: sci-misc/llama-cpp
@@ -1421,19 +1366,20 @@
     - MIT
   categories:
     - sci-misc
-- repo: liguros_stable
-  srcname: sci-misc/llama-cpp
-  visiblename: sci-misc/llama-cpp
-  version: 0_pre5097
-  origversion: null
-  status: legacy
-  summary: Port of Facebook's LLaMA model in C/C++
+- repo: openkylin_2_0
+  subrepo: nile-proposed/main
+  srcname: llamacpp
+  binnames:
+    - llamacpp
+    - llamacpp-dev
+  visiblename: llamacpp
+  version: 1.0.0
+  origversion: 1.0.0-ok0.1
+  status: newest
   maintainers:
-    - zl29ah@gmail.com
-  licenses:
-    - MIT
+    - kylin@unknown
   categories:
-    - sci-misc
+    - libs
 - repo: liguros_stable
   srcname: sci-misc/llama-cpp
   visiblename: sci-misc/llama-cpp
@@ -1570,6 +1516,16 @@
   summary: LLM inference in C/C++
   licenses:
     - MIT
+- repo: msys2_clang64
+  srcname: mingw-w64-llama.cpp
+  binname: mingw-w64-clang-x86_64-llama.cpp
+  visiblename: mingw-w64-clang-x86_64-llama.cpp
+  version: 0.7.0
+  origversion: 1~0.7.0-2
+  status: outdated
+  summary: LLM inference in C/C++ (mingw-w64)
+  licenses:
+    - spdx:MIT
 - repo: msys2_clangarm64
   srcname: mingw-w64-llama.cpp
   binname: mingw-w64-clang-aarch64-llama.cpp
@@ -1638,6 +1594,34 @@
   maintainers:
     - 7rat13@gmail.com
     - elo-nixos@nerdworks.de
+    - philip.taron@gmail.com
+    - b980120@hotmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: llama-cpp
+  visiblename: llama-cpp
+  version: b6981
+  origversion: "6981"
+  status: outdated
+  summary: Inference of Meta's LLaMA model (and others) in pure C/C++
+  maintainers:
+    - ihar.hrachyshka@gmail.com
+    - 7rat13@gmail.com
+    - philip.taron@gmail.com
+    - b980120@hotmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: llama-cpp-rocm
+  visiblename: llama-cpp
+  version: b6981
+  origversion: "6981"
+  status: outdated
+  summary: Inference of Meta's LLaMA model (and others) in pure C/C++
+  maintainers:
+    - ihar.hrachyshka@gmail.com
+    - 7rat13@gmail.com
     - philip.taron@gmail.com
     - b980120@hotmail.com
   licenses:
@@ -1801,6 +1785,17 @@
     - ethan@ethancedwards.com
   licenses:
     - MIT
+- repo: npackd_stable64
+  srcname: llama-cpp
+  binname: llama-cpp
+  visiblename: llama.cpp
+  version: 0.4.1
+  origversion: null
+  status: outdated
+  licenses:
+    - MIT
+  categories:
+    - Development
 - repo: openbsd
   srcname: misc/llama.cpp
   binname: llama.cpp
@@ -1866,34 +1861,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: openkylin_2_0
-  subrepo: nile-proposed/main
-  srcname: llamacpp
-  binnames:
-    - llamacpp
-    - llamacpp-dev
-  visiblename: llamacpp
-  version: 1.0.0
-  origversion: 1.0.0-ok0.1
-  status: newest
-  maintainers:
-    - kylin@unknown
-  categories:
-    - libs
-- repo: openkylin_2_0_bedrock
-  subrepo: nile.bedrock/main
-  srcname: llamacpp
-  binnames:
-    - llamacpp
-    - llamacpp-dev
-  visiblename: llamacpp
-  version: 1.0.0
-  origversion: 1.0.0-ok0.1
-  status: newest
-  maintainers:
-    - kylin@unknown
-  categories:
-    - libs
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: llama-cpp
@@ -2040,7 +2007,7 @@
   subrepo: versions
   binname: llama.cpp-sycl
   visiblename: llama.cpp-sycl
-  version: b11936
+  version: b11969
   origversion: null
   status: outdated
   licenses:
@@ -2049,7 +2016,7 @@
   subrepo: versions
   binname: llama.cpp-cu124
   visiblename: llama.cpp-cu124
-  version: b11936
+  version: b11969
   origversion: null
   status: outdated
   licenses:
@@ -2058,7 +2025,7 @@
   subrepo: versions
   binname: llama.cpp-cpu
   visiblename: llama.cpp-cpu
-  version: b11936
+  version: b11969
   origversion: null
   status: outdated
   licenses:
@@ -2067,7 +2034,7 @@
   subrepo: versions
   binname: llama.cpp-opencl
   visiblename: llama.cpp-opencl
-  version: b11936
+  version: b11969
   origversion: null
   status: outdated
   licenses:
@@ -2076,7 +2043,7 @@
   subrepo: versions
   binname: llama.cpp-vulkan
   visiblename: llama.cpp-vulkan
-  version: b11936
+  version: b11969
   origversion: null
   status: outdated
   licenses:
@@ -2131,6 +2098,39 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: stalix
+  srcname: bin/llama/cpp/vulkan
+  binname: bin/llama/cpp/vulkan
+  visiblename: bin/llama/cpp/vulkan
+  version: b7086
+  origversion: null
+  status: outdated
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/llama/cpp/soft
+  binname: bin/llama/cpp/soft
+  visiblename: bin/llama/cpp/soft
+  version: b7086
+  origversion: null
+  status: outdated
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/llama/cpp/vulkan
+  binname: bin/llama/cpp/vulkan
+  visiblename: bin/llama/cpp/vulkan
+  version: b7086
+  origversion: null
+  status: outdated
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: t2
   srcname: llama-cpp
   visiblename: llama-cpp
@@ -2148,7 +2148,7 @@
   srcname: llama-cpp
   binname: llama-cpp
   visiblename: llama-cpp
-  version: 0.7.0
+  version: 0.8.0
   origversion: null
   status: outdated
   summary: LLM inference in C/C++
