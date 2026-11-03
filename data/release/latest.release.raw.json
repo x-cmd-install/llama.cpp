@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 7,
       "digest": "sha256:724adc02ee641157d1baadcf9136e832bba209ad0170e16e30872bc09f44b44f",
-      "download_count": 20313,
+      "download_count": 25081,
       "created_at": "2026-10-28T12:47:53Z",
       "updated_at": "2026-10-28T12:47:53Z",
       "browser_download_url": "https://github.com/ggml-org/llama.cpp/releases/download/v0.8.0/nightly-tag.txt"
