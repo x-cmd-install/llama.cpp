@@ -1,3 +1,49 @@
+- repo: homebrew
+  srcname: llama.cpp
+  visiblename: llama.cpp
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: LLM inference in C/C++
+- repo: ibmi
+  srcname: llama-cpp
+  binnames:
+    - llama-cpp
+  visiblename: llama-cpp
+  version: b5281
+  origversion: b5281-1
+  status: outdated
+  summary: Inference Engine
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: alpine_edge
+  subrepo: community
+  srcname: llama.cpp
+  binname: llama
+  visiblename: llama
+  version: 0.6.0
+  origversion: 0.6.0-r0
+  status: outdated
+  summary: llama tool from llama.cpp
+  maintainers:
+    - hugo@whynothugo.nl
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: llama.cpp
+  binname: llama-batched
+  visiblename: llama-batched
+  version: 0.6.0
+  origversion: 0.6.0-r0
+  status: outdated
+  summary: llama-batched tool from llama.cpp
+  maintainers:
+    - hugo@whynothugo.nl
+  licenses:
+    - MIT
 - repo: aixtoolbox
   srcname: llama-cpp
   binnames:
@@ -128,32 +174,6 @@
   origversion: 0.0.9564-r0
   status: outdated
   summary: LLM inference in C/C++ (with Vulkan GPU acceleration)
-  maintainers:
-    - hugo@whynothugo.nl
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: llama.cpp
-  binname: llama
-  visiblename: llama
-  version: 0.6.0
-  origversion: 0.6.0-r0
-  status: outdated
-  summary: llama tool from llama.cpp
-  maintainers:
-    - hugo@whynothugo.nl
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: llama.cpp
-  binname: llama-batched
-  visiblename: llama-batched
-  version: 0.6.0
-  origversion: 0.6.0-r0
-  status: outdated
-  summary: llama-batched tool from llama.cpp
   maintainers:
     - hugo@whynothugo.nl
   licenses:
@@ -587,18 +607,6 @@
     - hugo@whynothugo.nl
   licenses:
     - MIT
-- repo: aur
-  srcname: llama.cpp-clblas-git
-  binname: llama.cpp-clblas-git
-  visiblename: llama.cpp-clblas-git
-  version: b5123.r1.bc091a4dc
-  origversion: b5123.r1.bc091a4dc-1
-  status: rolling
-  summary: Port of Facebook's LLaMA model in C/C++ (with OpenCL optimizations)
-  maintainers:
-    - fallback-mnt-aur@repology
-  licenses:
-    - MIT
 - repo: alpine_edge
   subrepo: community
   srcname: llama.cpp
@@ -760,6 +768,18 @@
   licenses:
     - MIT
 - repo: aur
+  srcname: llama.cpp-clblas-git
+  binname: llama.cpp-clblas-git
+  visiblename: llama.cpp-clblas-git
+  version: b5123.r1.bc091a4dc
+  origversion: b5123.r1.bc091a4dc-1
+  status: rolling
+  summary: Port of Facebook's LLaMA model in C/C++ (with OpenCL optimizations)
+  maintainers:
+    - fallback-mnt-aur@repology
+  licenses:
+    - MIT
+- repo: aur
   srcname: llama.cpp-sycl-f16-git
   binname: llama.cpp-sycl-f16-git
   visiblename: llama.cpp-sycl-f16-git
@@ -840,7 +860,7 @@
   status: outdated
   summary: llama.cpp with Intel Arc GPU acceleration via SYCL/oneAPI. Please read the README on Codeberg before use.
   maintainers:
-    - cantosun99@aur
+    - cantosun@aur
   licenses:
     - MIT
 - repo: aur
@@ -892,6 +912,13 @@
     - fallback-mnt-aur@repology
   licenses:
     - MIT
+- repo: homebrew
+  srcname: llama.cpp
+  visiblename: llama.cpp
+  version: 0.9.0
+  origversion: null
+  status: outdated
+  summary: LLM inference in C/C++
 - repo: aur
   srcname: llama.cpp-vulkan-git
   binname: llama.cpp-vulkan-git
@@ -904,39 +931,12 @@
     - rubin55@aur
   licenses:
     - MIT
-- repo: homebrew
-  srcname: llama.cpp
-  visiblename: llama.cpp
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: LLM inference in C/C++
 - repo: conancenter
   srcname: llama-cpp
   visiblename: llama-cpp
   version: 0.6.0
   origversion: null
   status: outdated
-- repo: homebrew
-  srcname: llama.cpp
-  visiblename: llama.cpp
-  version: 0.9.0
-  origversion: null
-  status: outdated
-  summary: LLM inference in C/C++
-- repo: ibmi
-  srcname: llama-cpp
-  binnames:
-    - llama-cpp
-  visiblename: llama-cpp
-  version: b5281
-  origversion: b5281-1
-  status: outdated
-  summary: Inference Engine
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: debian_14
   subrepo: forky/main
   srcname: llama.cpp
@@ -1085,21 +1085,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: llama-cpp
-  binnames:
-    - llama-cpp
-    - llama-cpp-devel
-  visiblename: llama-cpp
-  version: b4094
-  origversion: b4094-11.fc42
-  status: outdated
-  summary: Port of Facebook's LLaMA model in C/C++
-  licenses:
-    - MIT AND Apache-2.0 AND LicenseRef-Fedora-Public-Domain
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: llama-cpp
   binnames:
@@ -1108,6 +1093,21 @@
   visiblename: llama-cpp
   version: b4094
   origversion: b4094-10.fc42
+  status: outdated
+  summary: Port of Facebook's LLaMA model in C/C++
+  licenses:
+    - MIT AND Apache-2.0 AND LicenseRef-Fedora-Public-Domain
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: llama-cpp
+  binnames:
+    - llama-cpp
+    - llama-cpp-devel
+  visiblename: llama-cpp
+  version: b4094
+  origversion: b4094-11.fc42
   status: outdated
   summary: Port of Facebook's LLaMA model in C/C++
   licenses:
@@ -1937,7 +1937,7 @@
   subrepo: versions
   binname: llama.cpp-sycl
   visiblename: llama.cpp-sycl
-  version: b12119
+  version: b12137
   origversion: null
   status: outdated
   licenses:
@@ -1946,7 +1946,7 @@
   subrepo: versions
   binname: llama.cpp-cu124
   visiblename: llama.cpp-cu124
-  version: b12119
+  version: b12137
   origversion: null
   status: outdated
   licenses:
@@ -1955,7 +1955,7 @@
   subrepo: versions
   binname: llama.cpp-cpu
   visiblename: llama.cpp-cpu
-  version: b12119
+  version: b12137
   origversion: null
   status: outdated
   licenses:
@@ -1964,7 +1964,7 @@
   subrepo: versions
   binname: llama.cpp-opencl
   visiblename: llama.cpp-opencl
-  version: b12119
+  version: b12137
   origversion: null
   status: outdated
   licenses:
@@ -1973,7 +1973,7 @@
   subrepo: versions
   binname: llama.cpp-vulkan
   visiblename: llama.cpp-vulkan
-  version: b12119
+  version: b12137
   origversion: null
   status: outdated
   licenses:
