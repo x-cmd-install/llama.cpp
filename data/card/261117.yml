@@ -1,0 +1,295 @@
+about:
+  description: "LLM inference in C/C++"
+  license: MIT
+  homepage: https://llama.app
+  head: eada89c
+  archived: false
+  latestVersion: "b12465"
+  latestRelease: "v1.0.0"
+  latestPrerelease: "b12465"
+  collectedAt: 2026-11-17T09:26:20Z
+timeline:
+  created: 2023-03-10
+  lastCommit: 2026-11-17
+  lastVersion: 2026-11-17
+  lastRelease: 2026-11-13
+  lastPrerelease: 2026-11-17
+popularity:
+  star: 135413
+  watcher: 912
+  fork: 25674
+  release: 8200
+  contributor: 2232
+  pullRequest: 17331
+  issue: 10893
+language:
+  C++: 26142808
+  C: 7622511
+  Python: 3629833
+  Cuda: 2350670
+  TypeScript: 2107183
+  Svelte: 1134169
+  HTML: 775834
+  Metal: 678578
+  Jinja: 587846
+  GLSL: 388283
+  CMake: 322204
+  Shell: 300381
+  WGSL: 236503
+  Go Template: 226205
+  Objective-C: 132423
+  Dockerfile: 50188
+  CSS: 37159
+  JavaScript: 27499
+  Nix: 24441
+  PowerShell: 3823
+  Linker Script: 1729
+  MDX: 1656
+  Makefile: 1554
+  Batchfile: 802
+  SCSS: 415
+  Assembly: 396
+totalBytes: 46785093
+recent:
+  last30d:
+    since: 2026-10-18
+    release: 100
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last60d:
+    since: 2026-09-18
+    release: 100
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last90d:
+    since: 2026-08-19
+    release: 100
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last180d:
+    since: 2026-05-21
+    release: 100
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last360d:
+    since: 2025-11-22
+    release: 100
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last720d:
+    since: 2024-11-27
+    release: 100
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+total:
+  release: 8200
+  mergedPR: 11706
+  openPR: 1919
+  closedIssue: 10193
+  openIssue: 700
+  commit: 12472
+---
+path: /home/runner/.x-repo/github.com/ggerganov/llama.cpp
+collectedAt: 2026-11-17T09:27:01Z
+loc:
+  Cpp:
+    code: 450935
+    comments: 33389
+    blanks: 78608
+    files: 773
+  CHeader:
+    code: 147471
+    comments: 27031
+    blanks: 28856
+    files: 351
+  C:
+    code: 74189
+    comments: 4389
+    blanks: 15036
+    files: 105
+  Python:
+    code: 74136
+    comments: 4781
+    blanks: 14019
+    files: 260
+  TypeScript:
+    code: 46964
+    comments: 11728
+    blanks: 11060
+    files: 521
+  CppHeader:
+    code: 35436
+    comments: 6459
+    blanks: 6438
+    files: 89
+  Cuda:
+    code: 25509
+    comments: 1517
+    blanks: 4316
+    files: 209
+  Html:
+    code: 25476
+    comments: 0
+    blanks: 9661
+    files: 2
+  JavaScript:
+    code: 25476
+    comments: 9688
+    blanks: 3168
+    files: 15
+  Glsl:
+    code: 21788
+    comments: 889
+    blanks: 4259
+    files: 195
+  Json:
+    code: 21724
+    comments: 0
+    blanks: 14
+    files: 12
+  Svelte:
+    code: 15074
+    comments: 324
+    blanks: 1937
+    files: 421
+  Metal:
+    code: 11272
+    comments: 547
+    blanks: 2801
+    files: 38
+  CMake:
+    code: 6983
+    comments: 637
+    blanks: 1227
+    files: 108
+  Sh:
+    code: 6906
+    comments: 977
+    blanks: 1246
+    files: 72
+  WGSL:
+    code: 6052
+    comments: 231
+    blanks: 1172
+    files: 48
+  ObjectiveC:
+    code: 2678
+    comments: 215
+    blanks: 696
+    files: 2
+  Kotlin:
+    code: 1287
+    comments: 325
+    blanks: 203
+    files: 15
+  Svg:
+    code: 1244
+    comments: 1
+    blanks: 1
+    files: 2
+  Css:
+    code: 1034
+    comments: 143
+    blanks: 168
+    files: 3
+  Swift:
+    code: 1014
+    comments: 38
+    blanks: 215
+    files: 9
+  Batch:
+    code: 457
+    comments: 29
+    blanks: 79
+    files: 6
+  Xml:
+    code: 390
+    comments: 26
+    blanks: 20
+    files: 18
+  Autoconf:
+    code: 314
+    comments: 39
+    blanks: 69
+    files: 13
+  Makefile:
+    code: 208
+    comments: 18
+    blanks: 69
+    files: 4
+  Toml:
+    code: 154
+    comments: 9
+    blanks: 32
+    files: 4
+  Yaml:
+    code: 132
+    comments: 12
+    blanks: 31
+    files: 2
+  PowerShell:
+    code: 97
+    comments: 10
+    blanks: 29
+    files: 1
+  Nix:
+    code: 76
+    comments: 93
+    blanks: 16
+    files: 1
+  Prolog:
+    code: 48
+    comments: 0
+    blanks: 10
+    files: 3
+  AssemblyGAS:
+    code: 15
+    comments: 0
+    blanks: 0
+    files: 1
+  Ini:
+    code: 12
+    comments: 0
+    blanks: 0
+    files: 2
+  Sass:
+    code: 10
+    comments: 4
+    blanks: 2
+    files: 1
+  Markdown:
+    code: 0
+    comments: 14292
+    blanks: 5283
+    files: 131
+  Text:
+    code: 0
+    comments: 757
+    blanks: 45
+    files: 25
+total:
+  code: 1023200
+  comments: 120162
+  blanks: 194264
+  files: 3462
+---
+
+---
